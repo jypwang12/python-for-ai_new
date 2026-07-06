@@ -1,0 +1,16 @@
+StudentID,FirstName,LastName,Age,Gender,Major,GPA,GraduationYear
+ID1001,John,Smith,20,Male,Computer Science,3.85,2028
+ID1002,Emily,Johnson,19,Female,Mathematics,3.72,2029
+ID1003,Michael,Brown,21,Male,Physics,3.45,2027
+ID1004,Sophia,Davis,22,Female,Chemistry,3.91,2027
+ID1005,David,Wilson,20,Male,Biology,3.28,2028
+ID1006,Olivia,Taylor,19,Female,Computer Science,3.98,2029
+ID1007,James,Anderson,23,Male,Engineering,3.60,2026
+ID1008,Emma,Thomas,21,Female,Business,3.75,2027
+ID1009,William,Jackson,20,Male,Economics,3.40,2028
+ID1010,Ava,White,18,Female,Psychology,3.88,2030
+ID1011,John,Jin,20,Male,Computer Science,3.85,2028
+ID1012,Emily,Wang,18,Male,Computer Science,3.85,2028
+ID1013,Amy,Cai,20,Male,Computer Science,3.85,2028
+ID1014,Lily,Kim,19,Male,Computer Science,3.85,2028
+ID1015,Jen,Li,20,Male,Computer Science,3.85,2028
