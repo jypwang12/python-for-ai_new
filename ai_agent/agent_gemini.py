@@ -226,8 +226,12 @@ def handle_user_input(user_input: str) -> str:
     candidate = os.getcwd() + "/" + user_input.strip()
     if candidate.endswith(".csv") and os.path.exists(candidate):
         print(f"Detected CSV file input: {candidate}. Summarizing with model.")
-        return summarize_csv_with_model(candidate)
-    return chat_with_fallback("Hmmm, I can't seem to find a CSV file: " + user_input)
+        return summarize_csv_with_model(
+            candidate
+        )  # Found the csv file, summarize it and return the summary to user
+    return chat_with_fallback(
+        "Hmmm, I can't seem to find a CSV file: " + user_input
+    )  # Did not find the csv file, get a message to user for how to find the file
 
 
 def main() -> None:
